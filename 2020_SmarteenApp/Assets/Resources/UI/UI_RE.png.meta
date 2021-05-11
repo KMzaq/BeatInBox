@@ -1,0 +1,883 @@
+fileFormatVersion: 2
+guid: a5aa52473daa9054883f8b9f5de95a40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4914500735390778357
+    second: UI_All_money_bg
+  - first:
+      213: 3901794698657648682
+    second: UI_Shop_goback
+  - first:
+      213: -6608497082118201498
+    second: UI_Shop_goleft
+  - first:
+      213: 6866564965375221956
+    second: UI_Main_goright
+  - first:
+      213: 5404268628260646395
+    second: UI_Shop_buy
+  - first:
+      213: 4558284652881921865
+    second: UI_Shop_dragbar_bg
+  - first:
+      213: 3346662663931991928
+    second: UI_Shop_dragbar_bar
+  - first:
+      213: 1153641876130659936
+    second: UI_Shop_switch
+  - first:
+      213: -5386466538762869491
+    second: UI_Main_title
+  - first:
+      213: 421979391421552535
+    second: UI_Main_gooption
+  - first:
+      213: 7650268626111667475
+    second: UI_Main_goshop
+  - first:
+      213: 584041169975364635
+    second: UI_Main_gorank
+  - first:
+      213: 6828874763858675207
+    second: UI_Main_score
+  - first:
+      213: 6009908376786721955
+    second: UI_Main_start
+  - first:
+      213: 2891110809247902630
+    second: UI_Play_bg
+  - first:
+      213: 7905274566585009608
+    second: UI_Play_pause
+  - first:
+      213: -3543784748621763676
+    second: UI_End_coin
+  - first:
+      213: -6002217776356737838
+    second: UI_End_gohome
+  - first:
+      213: -4555660655379733798
+    second: UI_End_bg
+  - first:
+      213: 8377524089434456956
+    second: UI_Option_bg
+  - first:
+      213: -8041354819276406712
+    second: UI_Option_dragbar_bg
+  - first:
+      213: 8334172845451141224
+    second: UI_Option_dragbar_bar
+  - first:
+      213: -1674184338196708653
+    second: UI_Pause_start
+  - first:
+      213: -2656735516560573077
+    second: UI_Pause_option
+  - first:
+      213: 1264533934143612307
+    second: UI_Pause_restart
+  - first:
+      213: 7056035003341319172
+    second: UI_Pause_gohome
+  - first:
+      213: 7376529796849509648
+    second: UI_Shop_eye
+  - first:
+      213: -1492530486335177960
+    second: UI_Shop_goright
+  - first:
+      213: 2444055446715589941
+    second: UI_Shop_charBG
+  - first:
+      213: 5327133013576616877
+    second: UI_Shop_themeBG
+  - first:
+      213: 399010556785747937
+    second: Char_hobak
+  - first:
+      213: -153611529637702996
+    second: Char_chamwhy
+  - first:
+      213: -6810769258288072587
+    second: Char_sagua
+  - first:
+      213: 8846647617083464327
+    second: Char_subak
+  - first:
+      213: -8235996677360647688
+    second: UI_RE_0
+  - first:
+      213: -7819217145542044023
+    second: UI_RE_1
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_All_money_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1046
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ebed7a8eddce44795b0710a4fe3810
+      internalID: 4914500735390778357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_goback
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 996
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4f14d0e4c9ecb40b6381dd10098fab
+      internalID: 3901794698657648682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_buy
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c29123a983acd943a3763967e376aee
+      internalID: 5404268628260646395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_dragbar_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 270
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec1633ef06d68048b06dd6ab88b905a
+      internalID: 4558284652881921865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_dragbar_bar
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 856
+        width: 36
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33055851e6119f14fb9c5075fcd96086
+      internalID: 3346662663931991928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_switch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 735
+        width: 96
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a820c5e7786e6454ea68df5ee5e28385
+      internalID: 1153641876130659936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Main_title
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 276
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3318d8befb4846bdae73718882d20
+      internalID: -5386466538762869491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Main_gooption
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dd7d68a2250ee4c89551931496aec8
+      internalID: 421979391421552535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Main_goshop
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 527
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffc954df652809489426ba1adcb230a
+      internalID: 7650268626111667475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Main_gorank
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ac1a253944bb8499738a11b88082d9
+      internalID: 584041169975364635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Main_score
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 426
+        width: 146
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ed1f23af915f4458e9649cba04c339
+      internalID: 6828874763858675207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Main_start
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 222
+        width: 152
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec103f6531097347a71cf9f451988a6
+      internalID: 6009908376786721955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Play_bg
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 705
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583850e693b34894fb2b67e9d2dcfc38
+      internalID: 2891110809247902630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Play_pause
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 660
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f175e9f30bd01d48877923d926301fd
+      internalID: 7905274566585009608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_End_gohome
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 417
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de5678697deb7a46a4b9dc7a5425abe
+      internalID: -6002217776356737838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Option_bg
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 672
+        width: 360
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8567075c1ab3544bcba68d123d0855
+      internalID: 8377524089434456956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Option_dragbar_bg
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 618
+        width: 228
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4e74af898c297439a145a2237b2b9a
+      internalID: -8041354819276406712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Option_dragbar_bar
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 596
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d427642195dc314bbaa8f2f3a7a30a3
+      internalID: 8334172845451141224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Pause_start
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 438
+        width: 72
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74750d7ee08c65f4d91047a446011707
+      internalID: -1674184338196708653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Pause_option
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 489
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e1a201d55a9954aa31099b291d9ad8
+      internalID: -2656735516560573077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Pause_restart
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 446
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e719592f1c089347bb03c5a6e84d5f1
+      internalID: 1264533934143612307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Pause_gohome
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 399
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1411389a92cad4ab1d497498c4477c
+      internalID: 7056035003341319172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_eye
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 488
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83848255e4514df488711e7609ea6873
+      internalID: 7376529796849509648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_goleft
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1024
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d283c7bb4d5af004db0fc8ac877105a6
+      internalID: -6608497082118201498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_goright
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1024
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1741fdfcf5d6f41a17db9db58d2bca
+      internalID: -1492530486335177960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_charBG
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 809
+        width: 180
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d3a48c13f00a84b8f49a9709f7797f
+      internalID: 2444055446715589941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shop_themeBG
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 721
+        width: 180
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f604bf6636e947a4083846e22cfd28d6
+      internalID: 5327133013576616877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_hobak
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 671
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434c10daae0ec9546b1c4f4878ac766a
+      internalID: 399010556785747937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_chamwhy
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 671
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4011fd27267e0864da430813d246c791
+      internalID: -153611529637702996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_subak
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 632
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65535149c8f4b6b449d21eb870da46cb
+      internalID: 8846647617083464327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_RE_0
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 21
+        width: 358
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c43983906a4554e902892b9fd7a14e
+      internalID: -8235996677360647688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_RE_1
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 672
+        width: 360
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e55ed192b7e0bb4c8273efcf24a2d06
+      internalID: -7819217145542044023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
