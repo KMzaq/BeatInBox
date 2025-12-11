@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|c:\\users\\kimmi\\downloads\\2020_smarteenapp\\assets\\resources\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\assets\\system\\rank_loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\rank_loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CSVReader.cs",
+              "DocumentMoniker": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\Resources\\CSVReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\CSVReader.cs",
+              "ToolTip": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\Resources\\CSVReader.cs",
+              "RelativeToolTip": "Assets\\Resources\\CSVReader.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:31:33.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rank_loginsystem.cs",
+              "DocumentMoniker": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\system\\rank_loginsystem.cs",
+              "RelativeDocumentMoniker": "Assets\\system\\rank_loginsystem.cs",
+              "ToolTip": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\system\\rank_loginsystem.cs",
+              "RelativeToolTip": "Assets\\system\\rank_loginsystem.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:17:36.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\PlayerMove.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:17:10.121Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

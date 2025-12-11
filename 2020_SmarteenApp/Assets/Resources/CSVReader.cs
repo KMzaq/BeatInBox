@@ -6,7 +6,33 @@ using System.Text.RegularExpressions;
 
 public class CSVReader
 {
-	static string SPLIT_RE = @",(?=(?:[^""]*""[^""]*"")*(?![^""]*""))";
+    /// <summary>
+	/// 
+	/// 패턴관리매니저
+	/// 
+	///		패턴실행일꾼
+	/// 
+    /// 패턴타입 A
+    ///		리스트
+    ///			{장애물타입A}, 생성시간
+    ///			{장애물타입B}, 생성시간
+    ///			{장애물타입C}, 생성시간
+	///			
+	///	
+	/// 
+	/// 패턴 B
+    ///		리스트
+    ///			{장애물타입A}, 생성시간
+    ///			{장애물타입A}, 생성시간
+    ///			{장애물타입A}, 생성시간
+    /// 
+    /// 
+    /// </summary>
+
+
+
+
+    static string SPLIT_RE = @",(?=(?:[^""]*""[^""]*"")*(?![^""]*""))";
 	static string LINE_SPLIT_RE = @"\r\n|\n\r|\n|\r";
 	static char[] TRIM_CHARS = { '\"' };
 	

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Experimental.PlayerLoop;
 
 
 public class PlayerMove : MonoBehaviour
@@ -40,14 +39,14 @@ public class PlayerMove : MonoBehaviour
         if ((move == false && drag.Pmove == true) && movecount > 0)
         {
             
-            if (drag.EventDrag == drag.Drag.y && rigidbody2D.velocity.x == 0)
+            if (drag.EventDrag == drag.Drag.y && rigidbody2D.linearVelocity.x == 0)
             {
 
                 player_rot.y = drag.player_p;
                 player_rot.x = 0;
 
             }
-            if (drag.EventDrag == drag.Drag.x && rigidbody2D.velocity.y == 0)
+            if (drag.EventDrag == drag.Drag.x && rigidbody2D.linearVelocity.y == 0)
             {
 
                 player_rot.x = drag.player_p;
@@ -92,9 +91,9 @@ public class PlayerMove : MonoBehaviour
         }
 
 
-        rigidbody2D.velocity = new Vector2(player_rot.x * speed , player_rot.y * speed);
+        rigidbody2D.linearVelocity = new Vector2(player_rot.x * speed , player_rot.y * speed);
 
-        if (rigidbody2D.velocity.x == 0 || rigidbody2D.velocity.y == 0)
+        if (rigidbody2D.linearVelocity.x == 0 || rigidbody2D.linearVelocity.y == 0)
         {
             stop();
         }
@@ -115,7 +114,7 @@ public class PlayerMove : MonoBehaviour
     {
 
 
-        if (rigidbody2D.velocity == new Vector2(0, 0))
+        if (rigidbody2D.linearVelocity == new Vector2(0, 0))
         {
 
             player_rot1 = new Vector2(0, 0);
@@ -171,7 +170,7 @@ public class PlayerMove : MonoBehaviour
                 if(other.tag == "obj_intrail")
                 {
                     other.GetComponent<obj_1>().enabled = false;
-                    other.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+                    other.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 0);
                     other.transform.GetChild(0).GetComponent<TrailRenderer>().time = 30f;
                 } //뭐지 막상 이럴거면 태그 분류 왜한거지
 
