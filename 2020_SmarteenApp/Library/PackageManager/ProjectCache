@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/kimmi/Downloads/2020_SmarteenApp/Packages/manifest.json
+    m_FilePath: D:/UnityProject/BeatInBox/2020_SmarteenApp/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 639010522035587336
     m_Hash: 2963016780
   m_LockFileStatus:
-    m_FilePath: C:/Users/kimmi/Downloads/2020_SmarteenApp/Packages/packages-lock.json
+    m_FilePath: D:/UnityProject/BeatInBox/2020_SmarteenApp/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,7 +19,7 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/kimmi/Downloads/2020_SmarteenApp/Packages
+m_ProjectPath: D:/UnityProject/BeatInBox/2020_SmarteenApp/Packages
 m_EditorVersion: 6000.3.0f1 (d1870ce95baf)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.2d.sprite@ee8d95778bc9
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.2d.sprite@ee8d95778bc9
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -107,7 +107,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.2d.tilemap@3d8f5247dec9
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.2d.tilemap@3d8f5247dec9
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -206,7 +206,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.16.4
   source: 1
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.ads@e89225828059
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.ads@e89225828059
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -354,7 +354,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -487,7 +487,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.2
   source: 1
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -668,7 +668,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -748,7 +748,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -879,7 +879,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.25
   source: 1
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -993,7 +993,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.multiplayer.center@5943376a2da3
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.multiplayer.center@5943376a2da3
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1089,7 +1089,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1179,7 +1179,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1377,7 +1377,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\kimmi\Downloads\2020_SmarteenApp\Library\PackageCache\com.unity.ugui@4ee0fac0c6e4
+  resolvedPath: D:\UnityProject\BeatInBox\2020_SmarteenApp\Library\PackageCache\com.unity.ugui@4ee0fac0c6e4
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI

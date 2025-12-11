@@ -489,6 +489,7 @@
 "Assets/PT_system.cs"
 "Assets/Resources/CSVReader.cs"
 "Assets/Resources/store/store.cs"
+"Assets/Scripts/PaternSystem/PaternManager.cs"
 "Assets/system.cs"
 "Assets/system/camera.cs"
 "Assets/system/drag.cs"
