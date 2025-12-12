@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PaternSystem\Obstacle\IObstacle.cs" />
     <Compile Include="Assets\obstacle\obj_3.cs" />
     <Compile Include="Assets\system\UI.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidHelperFragment.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLeaderboard.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCapabilities.cs" />
     <Compile Include="Assets\system\Vibration.cs" />
+    <Compile Include="Assets\Scripts\PaternSystem\Patern\PaternScriptObject.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\SignInStatus.cs" />
     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesAchievement.cs" />
     <Compile Include="Assets\GooglePlayGames\OurUtils\NearbyHelperObject.cs" />
@@ -136,6 +138,7 @@
     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\EndpointDetails.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEvent.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\DummyClient.cs" />
+    <Compile Include="Assets\Scripts\PaternSystem\Obstacle\BaseObstacle.cs" />
     <Compile Include="Assets\GPGSIds.cs" />
     <Compile Include="Assets\system\rank_loginsystem.cs" />
     <Compile Include="Assets\Resources\store\store.cs" />
@@ -149,6 +152,7 @@
     <Compile Include="Assets\PlayerMove.cs" />
     <Compile Include="Assets\system.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\PlayerProfile.cs" />
+    <Compile Include="Assets\Scripts\PaternSystem\Obstacle\Obstacle_Straight.cs" />
     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidSnapshotMetadata.cs" />
   </ItemGroup>
   <ItemGroup>

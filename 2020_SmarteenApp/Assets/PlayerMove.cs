@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 
 public class PlayerMove : MonoBehaviour
@@ -19,11 +22,17 @@ public class PlayerMove : MonoBehaviour
     public AudioSource playerkong;
     public AudioSource playerdie;
     private bool moving_sound = true;
-    
+
 
     private Vector3 pos1;
 
     public GameObject dead_ef;
+
+    /// <summary>
+    /// </summary>
+    /// 
+    private static readonly Vector3 Size = new Vector3(210, 210, 0);
+    private static readonly float SmallizerSize = 0.75f;
 
 
     //움직일때 공중에서 한번 뒤로 움직일수있게해줌    
@@ -38,7 +47,7 @@ public class PlayerMove : MonoBehaviour
 
         if ((move == false && drag.Pmove == true) && movecount > 0)
         {
-            
+
             if (drag.EventDrag == drag.Drag.y && rigidbody2D.linearVelocity.x == 0)
             {
 
@@ -49,7 +58,7 @@ public class PlayerMove : MonoBehaviour
             if (drag.EventDrag == drag.Drag.x && rigidbody2D.linearVelocity.y == 0)
             {
 
-                player_rot.x = drag.player_p;
+                player_rot.x = drag.player_p; 
                 player_rot.y = 0;
 
             }
@@ -58,10 +67,10 @@ public class PlayerMove : MonoBehaviour
 
                 move = true;
                 //Debug.Log(move);
-                if(Timesysyem.GameStart == 0)
+                if (Timesysyem.GameStart == 0)
                     Timesysyem.GameStart = 1;
                 //if (pos1 != transform.position)
-                    moving_sound = true;
+                moving_sound = true;
                 pos1 = transform.position;
 
             }
@@ -75,68 +84,51 @@ public class PlayerMove : MonoBehaviour
                 movecount--;
 
             }
-
         }
 
-
-
-
-        //Debug.Log(player_rot);
-        //Debug.Log(player_rot1);
         if (player_rot1 != player_rot)
         {
-
             movecount--;
-
         }
 
-
-        rigidbody2D.linearVelocity = new Vector2(player_rot.x * speed , player_rot.y * speed);
+        rigidbody2D.linearVelocity = new Vector2(player_rot.x * speed, player_rot.y * speed);
 
         if (rigidbody2D.linearVelocity.x == 0 || rigidbody2D.linearVelocity.y == 0)
         {
             stop();
         }
-        //그리고 +-만 바뀌면 그대로 실행한다
-
-        //x축으로 움직이고 돌아갈때 그리고 버그가 일어나면
-        //x축으로 가다 붙이친 오브젝트와 x축인것을 저장하고 
-        //y축으로 움직일땐 잠시 오브젝트 멈추는것을 못하게한다
-        //그리고 한번 드레그후 그전 움직임과 다른방향으로 움직이게 되면
-        //데이터를 다시저장한다
 
     }
-   
+    public void SizeUP(int Level,Action callback)
+    {
 
+    }
+    IEnumerator PlaySizeUp()
+    {
+        //while (this.gameObject.transform.localScale.x<=())
+        //{
+        //    this.gameObject.transform.position.Scale = new Vector3(1, 1, 1);
+        //    yield return null;
+
+        //}
+    }
 
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-
-
         if (rigidbody2D.linearVelocity == new Vector2(0, 0))
         {
-
             player_rot1 = new Vector2(0, 0);
             movecount = 2;
 
-            
-                if (moving_sound == true && pos1 != transform.position)
-                {
-
-                    playerkong.Play();
-                    Vibration.Vibrate((long)(5 * Timesysyem.vibe));
-                    
-                    moving_sound = false;
-
-                }
-            
-
-
+            if (moving_sound == true && pos1 != transform.position)
+            {
+                playerkong.Play();
+                Vibration.Vibrate((long)(5 * Timesysyem.vibe));
+                moving_sound = false;
+            }
             stop();
         }
-        
-
     }
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -154,20 +146,20 @@ public class PlayerMove : MonoBehaviour
                 //캐릭터 이미지 정보 받아서 부들거리다 터지는거 소환
                 GameObject caef = Instantiate(dead_ef, this.gameObject.transform.position, Quaternion.identity);
                 caef.GetComponent<SpriteRenderer>().sprite = this.gameObject.GetComponent<SpriteRenderer>().sprite;
-                Color color = this.gameObject.GetComponentInChildren<TrailRenderer>().startColor;
+                UnityEngine.Color color = this.gameObject.GetComponentInChildren<TrailRenderer>().startColor;
                 color.a = 1;
                 caef.GetComponent<ParticleSystem>().startColor = color;
 
                 Destroy(gameObject);
                 //장애물 정보 받아서 obj면 정보에 따라 소환, 트레일 있으면 트레일이랑 날아가는거 정지
-                if(other.tag == "obj")
+                if (other.tag == "obj")
                 {
                     if (other.transform.localScale.z == 1)
                         other.GetComponent<obj_2>().enabled = false;
                     else
                         other.GetComponent<obj_3>().enabled = false;
                 }
-                if(other.tag == "obj_intrail")
+                if (other.tag == "obj_intrail")
                 {
                     other.GetComponent<obj_1>().enabled = false;
                     other.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 0);
@@ -175,22 +167,17 @@ public class PlayerMove : MonoBehaviour
                 } //뭐지 막상 이럴거면 태그 분류 왜한거지
 
                 //Timesysyem.Char_dead2 = true; //연출 후에 실행
-                
+
                 ///////////////////////////////////////////////////////////////
             }
         }
     }
     void stop()
     {
-            
-
         move = false;
         drag.Pmove = false;
         //player_rot = new Vector2(0, 0);
         drag.player_p = 0;
-
-        
-        
     }
 
 }

@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\",
+  "WorkspaceRootPath": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|c:\\users\\kimmi\\downloads\\2020_smarteenapp\\assets\\hh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\hh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\obstacle\\baseobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\baseobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\assets\\system\\rank_loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\rank_loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\obstacle\\iobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\iobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_straight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\obstacle_straight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\patern\\paternscriptobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\patern\\paternscriptobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\resources\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\system\\pointsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\pointsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\system\\rank_loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\rank_loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,48 +46,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "hh.cs",
-              "DocumentMoniker": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\hh.cs",
-              "RelativeDocumentMoniker": "Assets\\hh.cs",
-              "ToolTip": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\hh.cs",
-              "RelativeToolTip": "Assets\\hh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Obstacle_Straight.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:21:52.009Z",
+              "WhenOpened": "2025-12-12T00:15:57.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "pointsystem.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\pointsystem.cs",
+              "RelativeDocumentMoniker": "Assets\\system\\pointsystem.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\pointsystem.cs",
+              "RelativeToolTip": "Assets\\system\\pointsystem.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAtwDoAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:03:29.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaternManager.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\PaternManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\PaternManager.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\PaternManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\PaternManager.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwDwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:34:49.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaternScriptObject.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:18:28.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseObstacle.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\BaseObstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Obstacle\\BaseObstacle.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\BaseObstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\BaseObstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:55:24.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IObstacle.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\IObstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Obstacle\\IObstacle.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\IObstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\IObstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:51:24.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CSVReader.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Resources\\CSVReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\CSVReader.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Resources\\CSVReader.cs",
+              "RelativeToolTip": "Assets\\Resources\\CSVReader.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:31:33.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "rank_loginsystem.cs",
-              "DocumentMoniker": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\system\\rank_loginsystem.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\rank_loginsystem.cs",
               "RelativeDocumentMoniker": "Assets\\system\\rank_loginsystem.cs",
-              "ToolTip": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\system\\rank_loginsystem.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\rank_loginsystem.cs",
               "RelativeToolTip": "Assets\\system\\rank_loginsystem.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T12:17:36.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerMove.cs",
-              "DocumentMoniker": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerMove.cs",
-              "ToolTip": "C:\\Users\\kimmi\\Downloads\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\PlayerMove.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwG0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:17:10.121Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-12-11T12:17:10.121Z",
+              "EditorCaption": ""
             }
           ]
         }
