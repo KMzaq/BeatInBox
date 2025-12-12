@@ -5,6 +5,7 @@ using System.Drawing;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions.Must;
+using UnityEngine.SocialPlatforms;
 
 
 public class PlayerMove : MonoBehaviour
@@ -28,11 +29,6 @@ public class PlayerMove : MonoBehaviour
 
     public GameObject dead_ef;
 
-    /// <summary>
-    /// </summary>
-    /// 
-    private static readonly Vector3 Size = new Vector3(210, 210, 0);
-    private static readonly float SmallizerSize = 0.75f;
 
 
     //움직일때 공중에서 한번 뒤로 움직일수있게해줌    
@@ -58,7 +54,7 @@ public class PlayerMove : MonoBehaviour
             if (drag.EventDrag == drag.Drag.x && rigidbody2D.linearVelocity.y == 0)
             {
 
-                player_rot.x = drag.player_p; 
+                player_rot.x = drag.player_p;
                 player_rot.y = 0;
 
             }
@@ -67,8 +63,8 @@ public class PlayerMove : MonoBehaviour
 
                 move = true;
                 //Debug.Log(move);
-                if (Timesysyem.GameStart == 0)
-                    Timesysyem.GameStart = 1;
+                if (GameManager.GameStart == 0)
+                    GameManager.GameStart = 1;
                 //if (pos1 != transform.position)
                 moving_sound = true;
                 pos1 = transform.position;
@@ -99,20 +95,6 @@ public class PlayerMove : MonoBehaviour
         }
 
     }
-    public void SizeUP(int Level,Action callback)
-    {
-
-    }
-    IEnumerator PlaySizeUp()
-    {
-        //while (this.gameObject.transform.localScale.x<=())
-        //{
-        //    this.gameObject.transform.position.Scale = new Vector3(1, 1, 1);
-        //    yield return null;
-
-        //}
-    }
-
 
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -124,13 +106,13 @@ public class PlayerMove : MonoBehaviour
             if (moving_sound == true && pos1 != transform.position)
             {
                 playerkong.Play();
-                Vibration.Vibrate((long)(5 * Timesysyem.vibe));
+                Vibration.Vibrate((long)(5 * GameManager.vibe));
                 moving_sound = false;
             }
             stop();
         }
     }
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other) //죽음 시 연출, 장애물 충돌판정
     {
         spriteRenderer = other.gameObject.GetComponent<SpriteRenderer>();
         if (other.tag == "obj" || other.tag == "obj_intrail")
@@ -139,8 +121,8 @@ public class PlayerMove : MonoBehaviour
             {
                 /////////////////////////////////////////////////////////
                 playerdie.Play();
-                Vibration.Vibrate((long)(100 * Timesysyem.vibe));
-                Timesysyem.Char_dead = true;
+                Vibration.Vibrate((long)(100 * GameManager.vibe));
+                GameManager.Char_dead = true;
 
 
                 //캐릭터 이미지 정보 받아서 부들거리다 터지는거 소환
@@ -172,6 +154,38 @@ public class PlayerMove : MonoBehaviour
             }
         }
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            JustBarelyAvoid();
+        }
+    }
+    public void JustBarelyAvoid()
+    {
+        StartCoroutine(Avoid());
+    }
+    private float PlayerJustBarelyAvoidTime = 0.5f;
+    private float nomalFixedTime = 1;
+    IEnumerator Avoid()
+    {
+        float elapsedTime =0;
+        float timescale = Time.timeScale;
+        nomalFixedTime = Time.fixedDeltaTime;
+        while (elapsedTime < PlayerJustBarelyAvoidTime)
+        {
+            float t = elapsedTime / PlayerJustBarelyAvoidTime;
+            elapsedTime += Time.deltaTime;
+            yield return null;
+            Time.timeScale = 0.05f;
+            Time.fixedDeltaTime = Time.timeScale*0.02f;
+            
+        }
+        Debug.Log("슬로우 앤드");
+        Time.timeScale = timescale;
+
+    }
+
     void stop()
     {
         move = false;

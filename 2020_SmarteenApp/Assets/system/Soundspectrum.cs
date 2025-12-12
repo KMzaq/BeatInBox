@@ -37,7 +37,7 @@ public class Soundspectrum : MonoBehaviour
             Sticks[i].transform.localScale = Vector2.MoveTowards(Sticks[i].transform.localScale, FirstScale, 0.1f);     // 스펙트럼데이터에 맞게 늘어난 스케일을 처음스케일로 0.1의 속도만큼 바꿈
         }
 
-        BGM.pitch = 1 * Timesysyem.Skill_speed * Timesysyem.nanido_bgmspeed;
+        BGM.pitch = 1 * GameManager.Skill_speed * GameManager.nanido_bgmspeed;
 
     }
 }

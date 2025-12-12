@@ -78,7 +78,7 @@ public class obj_1 : MonoBehaviour
         {   
            // time = 0;
              spriteRenderer.color = new UnityEngine.Color(1, 0, 0, 1f);
-                rigidbody.linearVelocity = -movexy * 1000 * Timesysyem.Skill_speed;
+                rigidbody.linearVelocity = -movexy * 1000 * GameManager.Skill_speed;
 
             gameObject.GetComponentInChildren<obstacle_trail>().Traill();
 

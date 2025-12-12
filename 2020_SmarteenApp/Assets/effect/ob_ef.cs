@@ -35,7 +35,7 @@ public class ob_ef : MonoBehaviour
         }
         else if(ctime >= 3.5f)
         {
-            Timesysyem.Char_dead2 = true;
+            GameManager.Char_dead2 = true;
         }
 
     }

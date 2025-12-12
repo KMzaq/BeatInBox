@@ -8,6 +8,7 @@ public struct ObstacleInfo
     public int id;
     public Vector3 position;
     public Vector3 size;
+    public Vector3 direction;
     public float speed;
     public float time;
 }

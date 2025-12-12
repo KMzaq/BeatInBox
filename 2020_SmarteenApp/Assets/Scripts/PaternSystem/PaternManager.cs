@@ -22,10 +22,10 @@ public class PaternManager : MonoBehaviour
      * 패턴끝남 이벤트
      */
 
-    private void Start()
-    {
-        PlayPatern(0);
-    }
+    //private void Start()
+    //{
+    //    PlayPatern(0);
+    //}
 
     public void PlayPatern(int level)
     {
@@ -64,7 +64,7 @@ public class PaternManager : MonoBehaviour
         obs.transform.localScale = info.size;
 
         var obsComp = obs.GetComponent<IObstacle>();
-        obsComp.Initialize(info.speed, ObstacleEnd);
+        obsComp.Initialize(info.direction, info.speed, ObstacleEnd);
         obsComp.Play();
     }
 
@@ -76,6 +76,7 @@ public class PaternManager : MonoBehaviour
         {
             _isPaternPlaying = false;
             PaternEndEvent?.Invoke();
+            Debug.Log("패턴끝");
         }
     }
 }

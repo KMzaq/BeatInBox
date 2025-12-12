@@ -32,12 +32,15 @@ public class moving_wall : MonoBehaviour
                 if (this.transform.position.y == 0)
                     Instantiate(pung, new Vector3(transform.position.x, collision.transform.position.y, 1), Quaternion.identity);
 
-                Vibration.Vibrate((long)(10 * Timesysyem.vibe));
+                Vibration.Vibrate((long)(10 * GameManager.vibe));
                 /////////////////////////////
                 ///
-                if (Timesysyem.Char_dead == false)
+                if (GameManager.Char_dead == false)
                 pointsystem.Point += 1;
 
+                if (collision.TryGetComponent<IObstacle>(out var comp)){
+                    comp.End();
+                }
 
                 //점수추가
                 Destroy(collision.gameObject);

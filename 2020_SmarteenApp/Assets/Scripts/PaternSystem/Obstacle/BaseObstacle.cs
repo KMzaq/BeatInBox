@@ -3,13 +3,17 @@ using UnityEngine;
 
 public class BaseObstacle : MonoBehaviour, IObstacle
 {
+    protected Vector3 _direction;
     protected float _speed;
-    protected Action _endFuck;
+    protected Action _endFunc;
 
-
-    public virtual void Initialize(float speed, Action endFunc)
+    private bool _endOnce;
+    public virtual void Initialize(Vector3 direction, float speed, Action endFunc)
     {
+        _direction = direction.normalized;
         _speed = speed;
+        _endFunc = endFunc;
+        _endOnce = false;
     }
 
     public virtual void Play()
@@ -19,6 +23,8 @@ public class BaseObstacle : MonoBehaviour, IObstacle
 
     public virtual void End()
     {
-        _endFuck.Invoke();
+        if (_endOnce) return;
+        _endOnce = true;
+        _endFunc.Invoke();
     }
 }

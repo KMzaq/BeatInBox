@@ -35,12 +35,12 @@ public class obj_3 : MonoBehaviour
         if (infor.x == 1)
         {
             pos.x += infor.y * 0.45f * (transform.position.x / Mathf.Abs(transform.position.x) * -1);
-            size.x += infor.y * Timesysyem.Skill_speed;
+            size.x += infor.y * GameManager.Skill_speed;
         }
         if (infor.x == 2)
         {
             pos.y += infor.y * 0.45f * (transform.position.y / Mathf.Abs(transform.position.y) * -1);
-            size.y += infor.y * Timesysyem.Skill_speed;
+            size.y += infor.y * GameManager.Skill_speed;
         }
         
 
