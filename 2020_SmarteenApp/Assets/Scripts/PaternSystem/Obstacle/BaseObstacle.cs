@@ -26,5 +26,14 @@ public class BaseObstacle : MonoBehaviour, IObstacle
         if (_endOnce) return;
         _endOnce = true;
         _endFunc.Invoke();
+        Destroy(this.gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "wall")
+        {
+            End();
+        }
     }
 }

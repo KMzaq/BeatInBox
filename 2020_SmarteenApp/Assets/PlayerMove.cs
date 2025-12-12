@@ -115,7 +115,7 @@ public class PlayerMove : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other) //죽음 시 연출, 장애물 충돌판정
     {
         spriteRenderer = other.gameObject.GetComponent<SpriteRenderer>();
-        if (other.tag == "obj" || other.tag == "obj_intrail")
+        if (other.tag == "obj")
         {
             if (spriteRenderer.color.a > 0.5f)
             {
@@ -136,17 +136,10 @@ public class PlayerMove : MonoBehaviour
                 //장애물 정보 받아서 obj면 정보에 따라 소환, 트레일 있으면 트레일이랑 날아가는거 정지
                 if (other.tag == "obj")
                 {
-                    if (other.transform.localScale.z == 1)
-                        other.GetComponent<obj_2>().enabled = false;
-                    else
-                        other.GetComponent<obj_3>().enabled = false;
+                    Destroy(other.GetComponent<BaseObstacle>());
+   
                 }
-                if (other.tag == "obj_intrail")
-                {
-                    other.GetComponent<obj_1>().enabled = false;
-                    other.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 0);
-                    other.transform.GetChild(0).GetComponent<TrailRenderer>().time = 30f;
-                } //뭐지 막상 이럴거면 태그 분류 왜한거지
+
 
                 //Timesysyem.Char_dead2 = true; //연출 후에 실행
 

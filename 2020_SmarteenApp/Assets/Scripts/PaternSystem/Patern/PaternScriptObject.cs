@@ -18,3 +18,4 @@ public class PaternScriptObject : ScriptableObject
 {
     public List<ObstacleInfo> obstacleList;
 }
+

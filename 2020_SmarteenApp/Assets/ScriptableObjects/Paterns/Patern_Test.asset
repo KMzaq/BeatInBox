@@ -31,3 +31,9 @@ MonoBehaviour:
     direction: {x: -1, y: 0, z: 0}
     speed: 300
     time: 1.5
+  - id: 2
+    position: {x: -192, y: 0, z: 0}
+    size: {x: 50, y: 50, z: 1}
+    direction: {x: 0, y: 0, z: 0}
+    speed: 5
+    time: 0

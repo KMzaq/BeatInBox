@@ -944,9 +944,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PaternManager
   paternList:
   - {fileID: 11400000, guid: 1cbc677c425e67c41821ac66bd334dc0, type: 2}
+  paternListbeta:
+  - {fileID: 11400000, guid: c43b8cf83243de44488e02c2b0e7eba5, type: 2}
   obstaclePrefabList:
   - {fileID: 8294611295288333464, guid: c153c9a4b76fad745b8593625c8e422b, type: 3}
   - {fileID: 6630582087513140372, guid: 09246d26b76688c4a95a84250894af35, type: 3}
+  - {fileID: 4233358506802460022, guid: 718de1fa7165cd542bdba2b7bbd87a4c, type: 3}
 --- !u!4 &326422326
 Transform:
   m_ObjectHideFlags: 0

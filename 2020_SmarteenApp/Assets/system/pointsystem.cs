@@ -56,13 +56,13 @@ public class pointsystem : MonoBehaviour
         {
             SaveManager.scoresave(Point);
         }
-        Social.ReportScore(SaveManager.Sscore, GPGSIds.leaderboard_beat_in_box, (bool bSuccess) =>
-        {
-            //if (bSuccess)
-            //    Debug.Log("랭킹등록성공");
-            //else
-            //    Debug.Log("랭킹등록실패");
-        }
-);
+        //Social.ReportScore(SaveManager.Sscore, GPGSIds.leaderboard_beat_in_box, (bool bSuccess) =>
+        //{
+        //    //if (bSuccess)
+        //    //    Debug.Log("랭킹등록성공");
+        //    //else
+        //    //    Debug.Log("랭킹등록실패");
+        //}
+
     }
 }

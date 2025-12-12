@@ -12,7 +12,7 @@ public class moving_wall : MonoBehaviour
     public GameObject pung2;
     //
   
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         spriteRenderer = collision.gameObject.GetComponent<SpriteRenderer>();
         //Debug.Log(collision.name);
@@ -38,15 +38,8 @@ public class moving_wall : MonoBehaviour
                 if (GameManager.Char_dead == false)
                 pointsystem.Point += 1;
 
-                if (collision.TryGetComponent<IObstacle>(out var comp)){
-                    comp.End();
-                }
 
-                //점수추가
-                Destroy(collision.gameObject);
-                
-                try { Destroy(collision.gameObject.GetComponent<obj_1>().Ttrace); }
-                catch(NullReferenceException) { }
+
                
             }
         }

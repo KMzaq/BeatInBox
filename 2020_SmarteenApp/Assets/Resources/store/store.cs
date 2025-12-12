@@ -429,17 +429,17 @@ public class store : MonoBehaviour
                 print("스킨장착");
             }
             else if (skinlist[skinnum] == 2) { print("장착중"); }
-            else if (600 <= mny)
+            else if (10 <= mny)
             {
 
 
                 print("구매선공");
-                mny = -600;
+                mny = -10;
                 SaveManager.moneysave(mny);
                 SaveManager.skinysave(skinnum, 1);
 
             }
-            else if (600 > SaveManager.moneyload(SaveManager.Load()))
+            else if (10 > SaveManager.moneyload(SaveManager.Load()))
             {
                 print("구매실패");
 
@@ -475,17 +475,17 @@ public class store : MonoBehaviour
             {
                 print("장착중");
             }
-            else if (600 <= mny)
+            else if (10 <= mny)
             {
 
 
                 print("구매선공");
-                mny = -600;
+                mny = -10;
                 SaveManager.moneysave(mny);
                 SaveManager.mapskinsave(skinnum, 1);
 
             }
-            else if (600 > SaveManager.moneyload(SaveManager.Load()))
+            else if (10 > SaveManager.moneyload(SaveManager.Load()))
             {
                 print("구매실패");
 
