@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_expand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_expand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\obstacle_expand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\obstacle_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\obstacle_laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -115,8 +115,7 @@
               "ViewState": "AgIAAHEAAAAAAAAAAAAYwHoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T07:36:36.826Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -153,8 +152,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAuwEIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T00:15:57.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T00:15:57.228Z"
             },
             {
               "$type": "Document",
@@ -166,8 +164,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Laser.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAowEoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:36:01.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:36:01.923Z"
             },
             {
               "$type": "Document",
@@ -179,8 +176,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Wall.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAIwBgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T20:30:35.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T20:30:35.821Z"
             },
             {
               "$type": "Document",
@@ -192,8 +188,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T19:43:52.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T19:43:52.593Z"
             },
             {
               "$type": "Document",
@@ -263,7 +258,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Expand.cs",
               "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Expand.cs",
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Expand.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwCAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwEwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T14:11:28.227Z",
               "EditorCaption": ""
@@ -302,8 +297,7 @@
               "RelativeToolTip": "Assets\\system\\moving_wall.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAswBQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T12:38:14.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T12:38:14.19Z"
             },
             {
               "$type": "Document",
@@ -327,8 +321,7 @@
               "RelativeToolTip": "Assets\\PlayerMove.cs",
               "ViewState": "AgIAAIgAAAAAAAAAAAAAAIgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T07:06:55.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T07:06:55.576Z"
             },
             {
               "$type": "Document",
@@ -340,8 +333,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\PaternManager.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAYwC4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T19:34:49.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T19:34:49.989Z"
             },
             {
               "$type": "Document",
@@ -365,8 +357,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\BaseObstacle.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAiwCAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T18:55:24.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T18:55:24.481Z"
             },
             {
               "$type": "Document",
@@ -378,8 +369,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\IObstacle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T18:51:24.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T18:51:24.234Z"
             },
             {
               "$type": "Document",

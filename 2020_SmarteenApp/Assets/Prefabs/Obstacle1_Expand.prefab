@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 7712197755679851160}
   - component: {fileID: 24868373673971241}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: TriangleUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7712197755679851160
 Transform:
   m_ObjectHideFlags: 0
@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 197675994661525378}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.37, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.15, z: 0.15}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalScale: {x: 1, y: 0.3, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8661945283263610016}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224,
     type: 3}
@@ -103,12 +103,12 @@ GameObject:
   - component: {fileID: 8923290030220778535}
   - component: {fileID: 8341662075837616889}
   m_Layer: 0
-  m_Name: Triangle (1)
+  m_Name: TriangleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8923290030220778535
 Transform:
   m_ObjectHideFlags: 0
@@ -118,8 +118,8 @@ Transform:
   m_GameObject: {fileID: 1835988395455508790}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.37, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.15, z: 0.15}
+  m_LocalPosition: {x: 0.65, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.3, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8661945283263610016}
@@ -195,12 +195,12 @@ GameObject:
   - component: {fileID: 8270965105334233637}
   - component: {fileID: 6528210103170707273}
   m_Layer: 0
-  m_Name: Triangle (2)
+  m_Name: TriangleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8270965105334233637
 Transform:
   m_ObjectHideFlags: 0
@@ -210,8 +210,8 @@ Transform:
   m_GameObject: {fileID: 2277444501255455633}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.37, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.15, z: 0.15}
+  m_LocalPosition: {x: -0.65, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.3, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8661945283263610016}
@@ -311,9 +311,9 @@ Transform:
   m_Children:
   - {fileID: 6524746544839751703}
   - {fileID: 7712197755679851160}
-  - {fileID: 8923290030220778535}
-  - {fileID: 8270965105334233637}
   - {fileID: 2644255229689458373}
+  - {fileID: 8270965105334233637}
+  - {fileID: 8923290030220778535}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6938611377444785048
@@ -388,6 +388,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7dd6b1c4e4074346a1ae2cb6114f42f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstacle_Expand
+  arrowSpriteList:
+  - {fileID: 197675994661525378}
+  - {fileID: 8727223259659247057}
+  - {fileID: 2277444501255455633}
+  - {fileID: 1835988395455508790}
+  miniSprite: {fileID: 6524746544839751703}
 --- !u!61 &1020060083152288042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -486,9 +492,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7711714103616331301}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.008, y: 0.028, z: 0}
-  m_LocalScale: {x: 0.33, y: 0.33, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.45000017, y: -0.45000002, z: 0}
+  m_LocalScale: {x: 0.10000001, y: 0.10000001, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8661945283263610016}
@@ -540,7 +546,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
@@ -564,12 +570,12 @@ GameObject:
   - component: {fileID: 2644255229689458373}
   - component: {fileID: 1013232836353611616}
   m_Layer: 0
-  m_Name: Triangle (3)
+  m_Name: TriangleDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2644255229689458373
 Transform:
   m_ObjectHideFlags: 0
@@ -579,8 +585,8 @@ Transform:
   m_GameObject: {fileID: 8727223259659247057}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: -0.37, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.15, z: 0.15}
+  m_LocalPosition: {x: 0, y: -0.65, z: 0}
+  m_LocalScale: {x: 1, y: 0.3, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8661945283263610016}
