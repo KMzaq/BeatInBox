@@ -44,7 +44,7 @@ public class PaternManager : MonoBehaviour
         //_endedObstacleCount = 0;
 
         _currentPaternbeta = GetNewPaternbeta();
-        _allObstacleNum = _currentPaternbeta.obstacleList.Count * 2;
+        _allObstacleNum = _currentPaternbeta.obstacleList.Count;
         _endedObstacleCount = 0;
 
         //2차원 배열로 받음
@@ -56,8 +56,8 @@ public class PaternManager : MonoBehaviour
         foreach (var obs in _currentPaternbeta.obstacleList)
         {
 
-            StartCoroutine(PlayObstacleCoroutine(0,obs, false));
-            StartCoroutine(Delay(obs));
+            StartCoroutine(PlayObstacleCoroutine(0,obs, true));
+            //StartCoroutine(Delay(obs));
         }
 
     }
@@ -143,6 +143,7 @@ public class PaternManager : MonoBehaviour
     private void ObstacleEnd()
     {
         _endedObstacleCount++;
+        Debug.Log(_endedObstacleCount);
         if (_endedObstacleCount == _allObstacleNum)
         {
             _isPaternPlaying = false;

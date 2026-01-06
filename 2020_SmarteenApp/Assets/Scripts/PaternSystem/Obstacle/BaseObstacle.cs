@@ -3,33 +3,34 @@ using UnityEngine;
 
 public class BaseObstacle : MonoBehaviour, IObstacle
 {
-    protected Vector3 _direction;
-    protected float _speed;
+    protected Vector3 _vectorData;
+    protected float _floatData;
     protected Action _endFunc;
 
     private bool _endOnce;
-    public virtual void Initialize(Vector3 direction, float speed, Action endFunc)
+    public virtual void Initialize(Vector3 vectorData, float floatData, Action endFunc)
     {
-        _direction = direction.normalized;
-        _speed = speed;
+        _vectorData = vectorData;
+        _floatData = floatData;
         _endFunc = endFunc;
         _endOnce = false;
     }
 
     public virtual void Play()
     {
-        Debug.Log("장애물실행");
+        
     }
 
     public virtual void End()
     {
         if (_endOnce) return;
         _endOnce = true;
-        _endFunc.Invoke();
+
+        _endFunc?.Invoke();
         Destroy(this.gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "wall")
         {

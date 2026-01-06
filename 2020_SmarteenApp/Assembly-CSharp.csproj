@@ -68,7 +68,6 @@
     <Compile Include="Assets\system\sound.cs" />
     <Compile Include="Assets\system\drag.cs" />
     <Compile Include="Assets\system\gamestart.cs" />
-    <Compile Include="Assets\Scripts\PaternSystem\Obstacle\Obstacle_ZMove.cs" />
     <Compile Include="Assets\mainbackkey.cs" />
     <Compile Include="Assets\mob_key.cs" />
     <Compile Include="Assets\Scripts\PaternSystem\Patern\PaternScriptObject.cs" />
@@ -84,6 +83,7 @@
     <Compile Include="Assets\Resources\CSVReader.cs" />
     <Compile Include="Assets\system\main_text.cs" />
     <Compile Include="Assets\system\Soundspectrum.cs" />
+    <Compile Include="Assets\Scripts\PaternSystem\Obstacle\Obstacle_Laser.cs" />
     <Compile Include="Assets\tutor\tutorsystem.cs" />
     <Compile Include="Assets\effect\ob_ef.cs" />
     <Compile Include="Assets\Scripts\PaternSystem\Obstacle\BaseObstacle.cs" />

@@ -942,14 +942,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd6deb01ac0a244ba61df8cc6665bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaternManager
-  paternList:
-  - {fileID: 11400000, guid: 1cbc677c425e67c41821ac66bd334dc0, type: 2}
   paternListbeta:
   - {fileID: 11400000, guid: c43b8cf83243de44488e02c2b0e7eba5, type: 2}
   obstaclePrefabList:
   - {fileID: 8294611295288333464, guid: c153c9a4b76fad745b8593625c8e422b, type: 3}
   - {fileID: 6630582087513140372, guid: 09246d26b76688c4a95a84250894af35, type: 3}
   - {fileID: 4233358506802460022, guid: 718de1fa7165cd542bdba2b7bbd87a4c, type: 3}
+  - {fileID: 3243003897349817242, guid: af827e4ec0e1d6140a9bce5bf0230d41, type: 3}
 --- !u!4 &326422326
 Transform:
   m_ObjectHideFlags: 0
@@ -2375,7 +2374,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 940}
-  m_LocalScale: {x: 300.713, y: 300.713, z: 1}
+  m_LocalScale: {x: 900, y: 900, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4475,7 +4474,7 @@ GameObject:
   - component: {fileID: 1499122976}
   - component: {fileID: 1499122978}
   - component: {fileID: 1499122977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9953,7 +9952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1934349852}
   - component: {fileID: 1934349853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10032,7 +10031,7 @@ TrailRenderer:
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 66
+    widthMultiplier: 50
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -10333,9 +10332,9 @@ GameObject:
   - component: {fileID: 2043948668}
   - component: {fileID: 2043948670}
   - component: {fileID: 2043948671}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10408,8 +10407,8 @@ Transform:
   m_GameObject: {fileID: 2043948665}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -183, z: 0}
-  m_LocalScale: {x: 210, y: 210, z: 2.37}
+  m_LocalPosition: {x: 148, y: 0, z: 0}
+  m_LocalScale: {x: 150, y: 150, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1934349852}

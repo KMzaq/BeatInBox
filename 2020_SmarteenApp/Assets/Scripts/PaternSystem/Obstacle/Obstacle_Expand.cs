@@ -3,19 +3,45 @@ using UnityEngine;
 
 public class Obstacle_Expand : BaseObstacle
 {
-    private bool _isPlaying;
+    
 
+    private Vector3 _direction
+    {
+        get
+        {
+            return _vectorData.normalized;
+        }
+        set
+        {
+            _vectorData = value;
+        }
+    }
+
+    private float _speed
+    {
+        get
+        {
+            return _floatData;
+        }
+        set
+        {
+            _floatData = value;
+        }
+    }
 
     public override void Play()
     {
         base.Play();
         StartCoroutine(PlayCoroutine());
+        
     }
 
     IEnumerator PlayCoroutine()
     {
-        _isPlaying = true;
-        while (_isPlaying)
+        //
+
+
+        while (true)
         {
             var value = _direction * _speed * Time.deltaTime;
 
@@ -27,16 +53,7 @@ public class Obstacle_Expand : BaseObstacle
             this.transform.localScale += absValue;
             this.transform.position += value * 0.5f;
 
-
             yield return null;
         }
-
-        yield break;
-    }
-
-    public override void End()
-    {
-        _isPlaying = false;
-        base.End();
     }
 }

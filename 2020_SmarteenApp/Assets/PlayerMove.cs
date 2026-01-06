@@ -112,41 +112,53 @@ public class PlayerMove : MonoBehaviour
             stop();
         }
     }
-    private void OnTriggerStay2D(Collider2D other) //죽음 시 연출, 장애물 충돌판정
-    {
-        spriteRenderer = other.gameObject.GetComponent<SpriteRenderer>();
-        if (other.tag == "obj")
-        {
-            if (spriteRenderer.color.a > 0.5f)
-            {
-                /////////////////////////////////////////////////////////
-                playerdie.Play();
-                Vibration.Vibrate((long)(100 * GameManager.vibe));
-                GameManager.Char_dead = true;
-
-
-                //캐릭터 이미지 정보 받아서 부들거리다 터지는거 소환
-                GameObject caef = Instantiate(dead_ef, this.gameObject.transform.position, Quaternion.identity);
-                caef.GetComponent<SpriteRenderer>().sprite = this.gameObject.GetComponent<SpriteRenderer>().sprite;
-                UnityEngine.Color color = this.gameObject.GetComponentInChildren<TrailRenderer>().startColor;
-                color.a = 1;
-                caef.GetComponent<ParticleSystem>().startColor = color;
-
-                Destroy(gameObject);
-                //장애물 정보 받아서 obj면 정보에 따라 소환, 트레일 있으면 트레일이랑 날아가는거 정지
-                if (other.tag == "obj")
-                {
-                    Destroy(other.GetComponent<BaseObstacle>());
+    //private void OnTriggerStay2D(Collider2D other) //죽음 시 연출, 장애물 충돌판정
+    //{
+    //    spriteRenderer = other.gameObject.GetComponent<SpriteRenderer>();
+    //    if (other.tag == "obj")
+    //    {
+    //        if (spriteRenderer.color.a > 0.5f)
+    //        {
+    //            /////////////////////////////////////////////////////////
+    //            Die();
+    //            //장애물 정보 받아서 obj면 정보에 따라 소환, 트레일 있으면 트레일이랑 날아가는거 정지
+    //            if (other.tag == "obj")
+    //            {
+    //                Destroy(other.GetComponent<BaseObstacle>());
    
-                }
+    //            }
 
 
-                //Timesysyem.Char_dead2 = true; //연출 후에 실행
+    //            //Timesysyem.Char_dead2 = true; //연출 후에 실행
 
-                ///////////////////////////////////////////////////////////////
-            }
-        }
+    //            ///////////////////////////////////////////////////////////////
+    //        }
+    //    }
+    //}
+
+    public void Die()
+    {
+        /////////////////////////////////////////////////////////
+        playerdie.Play();
+        Vibration.Vibrate((long)(100 * GameManager.vibe));
+        GameManager.Char_dead = true;
+
+
+        //캐릭터 이미지 정보 받아서 부들거리다 터지는거 소환
+        GameObject caef = Instantiate(dead_ef, this.gameObject.transform.position, Quaternion.identity);
+        caef.GetComponent<SpriteRenderer>().sprite = this.gameObject.GetComponent<SpriteRenderer>().sprite;
+        UnityEngine.Color color = this.gameObject.GetComponentInChildren<TrailRenderer>().startColor;
+        color.a = 1;
+        caef.GetComponent<ParticleSystem>().startColor = color;
+
+        Destroy(gameObject);
+        //장애물 정보 받아서 obj면 정보에 따라 소환, 트레일 있으면 트레일이랑 날아가는거 정지
+
+        //Timesysyem.Char_dead2 = true; //연출 후에 실행
+
+        ///////////////////////////////////////////////////////////////
     }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))

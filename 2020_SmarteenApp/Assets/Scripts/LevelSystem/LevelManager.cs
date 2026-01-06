@@ -121,7 +121,6 @@ public class LevelManager : MonoBehaviour
                 LerpVector = Vector3.Lerp(SamllerTransforms[i].transform.localScale, SmallerVectorTemp[i], t);
                 SamllerTransforms[i].transform.localScale = LerpVector;
             }
-            Debug.Log(SamllerTransforms[0].transform.localScale);
             yield return null;
         }
         callback.Invoke();
