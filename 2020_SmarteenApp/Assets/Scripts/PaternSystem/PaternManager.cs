@@ -9,6 +9,9 @@ public class PaternManager : MonoBehaviour
 
     //public List<PaternScriptObject> paternList;
     public List<PaternScriptObjectbeta> paternListbeta;
+    public List<PaternScriptObjectbeta> paternListStageOne;
+    public List<PaternScriptObjectbeta> paternListStagetwo;
+    public List<PaternScriptObjectbeta> paternListbetathree;
     public List<GameObject> obstaclePrefabList;
 
 

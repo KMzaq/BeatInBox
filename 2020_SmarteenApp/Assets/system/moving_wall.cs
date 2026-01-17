@@ -4,8 +4,7 @@ using UnityEngine;
 using System;
 public class moving_wall : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
-    public pointsystem pointsystem;
+
     //
 
     public GameObject pung;
@@ -14,8 +13,7 @@ public class moving_wall : MonoBehaviour
   
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        spriteRenderer = collision.gameObject.GetComponent<SpriteRenderer>();
-        //Debug.Log(collision.name);
+
         if (collision.tag == "obj" || collision.tag == "obj_intrail")
         {
             //if (spriteRenderer.color.a >0.5f) 
@@ -36,8 +34,10 @@ public class moving_wall : MonoBehaviour
                 Vibration.Vibrate((long)(10 * GameManager.vibe));
                 /////////////////////////////
                 ///
+
+                
                 if (GameManager.Char_dead == false)
-                    pointsystem.Point += 1;
+                    Pointsystem.Point += 1;
 
 
 

@@ -943,7 +943,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaternManager
   paternListbeta:
-  - {fileID: 11400000, guid: c43b8cf83243de44488e02c2b0e7eba5, type: 2}
+  - {fileID: 11400000, guid: a10ed448b3533894298792bfa7baf1f8, type: 2}
+  paternListStageOne: []
+  paternListStagetwo: []
+  paternListbetathree: []
   obstaclePrefabList:
   - {fileID: 8294611295288333464, guid: c153c9a4b76fad745b8593625c8e422b, type: 3}
   - {fileID: 6630582087513140372, guid: 09246d26b76688c4a95a84250894af35, type: 3}
@@ -2531,7 +2534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e9d88acfd357841acc84a004c81e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsystem: {fileID: 644140182}
   pung: {fileID: 5296027019681876105, guid: b6734838b0289364cb3779bed9434ac6, type: 3}
   pung2: {fileID: 4052588717682592196, guid: 04a0da986a4660946a119a5369eb072c, type: 3}
 --- !u!1 &919961733
@@ -2909,7 +2911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e9d88acfd357841acc84a004c81e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsystem: {fileID: 644140182}
   pung: {fileID: 2707099087958971969, guid: a71bcbd6b82272c4bb99dae2cddb1737, type: 3}
   pung2: {fileID: 2217602043110457497, guid: 05148ed4a9eb77248adec3c7c146fe22, type: 3}
 --- !u!1 &990938801
@@ -3229,7 +3230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e9d88acfd357841acc84a004c81e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsystem: {fileID: 644140182}
   pung: {fileID: 5008867264200896541, guid: 29365b1b7f1ec024d9ef21c22dcd7b8c, type: 3}
   pung2: {fileID: 4730033557688830972, guid: addf447a43de7744587203e303cc4445, type: 3}
 --- !u!1 &1108516878
@@ -4460,7 +4460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e9d88acfd357841acc84a004c81e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsystem: {fileID: 644140182}
   pung: {fileID: 4051707002338471713, guid: 184596182df007c49ba307d297ff0491, type: 3}
   pung2: {fileID: 8534945590869091963, guid: 7f1c526fbd9c1054d98757b8eb1c6a74, type: 3}
 --- !u!1 &1499122975
@@ -10407,7 +10406,7 @@ Transform:
   m_GameObject: {fileID: 2043948665}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 148, y: 0, z: 0}
+  m_LocalPosition: {x: 187, y: 187, z: 0}
   m_LocalScale: {x: 150, y: 150, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -4,7 +4,7 @@ using System.Drawing;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class pointsystem : MonoBehaviour
+public class Pointsystem : MonoBehaviour
 {
     public static int Point;
     public static int mooney;

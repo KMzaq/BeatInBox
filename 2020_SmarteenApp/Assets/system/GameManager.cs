@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
         if (Char_dead == true)
         {
             //SaveManager.Save();
-            ptsys.GetComponent<pointsystem>().SendMessage("endscore");
+            ptsys.GetComponent<Pointsystem>().SendMessage("endscore");
 
             stop_button.SetActive(false);
 

@@ -41,7 +41,7 @@ public class PlayerMove : MonoBehaviour
         // player_rot1 = player_rot;
         //Debug.Log(movecount);
 
-        if ((move == false && drag.Pmove == true) && movecount > 0)
+        if (/*(move == false && drag.Pmove == true) &&*/ movecount > 0)
         {
 
             if (drag.EventDrag == drag.Drag.y && rigidbody2D.linearVelocity.x == 0)
@@ -89,15 +89,17 @@ public class PlayerMove : MonoBehaviour
 
         rigidbody2D.linearVelocity = new Vector2(player_rot.x * speed, player_rot.y * speed);
 
-        if (rigidbody2D.linearVelocity.x == 0 || rigidbody2D.linearVelocity.y == 0)
-        {
-            stop();
-        }
+        //if (rigidbody2D.linearVelocity.x == 0 || rigidbody2D.linearVelocity.y == 0)
+        //{
+        //    stop();
+        //}
 
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
+        if (collision.collider.tag != "wall") return;
+
         if (rigidbody2D.linearVelocity == new Vector2(0, 0))
         {
             player_rot1 = new Vector2(0, 0);

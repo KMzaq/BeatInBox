@@ -63,7 +63,7 @@ public class Obstacle_Wall : BaseObstacle
         if(collision.tag == "obj")
         {
             if (GameManager.Char_dead == false)
-                pointsystem.Point += 1;
+                Pointsystem.Point += 1;
 
             if (collision.TryGetComponent<IObstacle>(out var comp))
             {
