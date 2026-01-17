@@ -78,7 +78,6 @@
     <Compile Include="Assets\Scripts\PaternSystem\Obstacle\Obstacle_Expand.cs" />
     <Compile Include="Assets\system\SaveData.cs" />
     <Compile Include="Assets\Scripts\LevelSystem\LevelManager.cs" />
-    <Compile Include="Assets\system\pointsystem.cs" />
     <Compile Include="Assets\system\pause.cs" />
     <Compile Include="Assets\Resources\CSVReader.cs" />
     <Compile Include="Assets\system\main_text.cs" />
@@ -91,6 +90,7 @@
     <Compile Include="Assets\system\rank_loginsystem.cs" />
     <Compile Include="Assets\Resources\store\store.cs" />
     <Compile Include="Assets\system\camera.cs" />
+    <Compile Include="Assets\system\Pointsystem.cs" />
     <Compile Include="Assets\system\GameManager.cs" />
     <Compile Include="Assets\system\shopsystem.cs" />
     <Compile Include="Assets\PlayerMove.cs" />

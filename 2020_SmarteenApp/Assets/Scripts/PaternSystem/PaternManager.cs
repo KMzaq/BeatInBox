@@ -7,6 +7,8 @@ public class PaternManager : MonoBehaviour
 {
     public event Action PaternEndEvent;
 
+    private LevelManager _levelManager;
+
     //public List<PaternScriptObject> paternList;
     public List<PaternScriptObjectbeta> paternListbeta;
     public List<PaternScriptObjectbeta> paternListStageOne;
@@ -32,6 +34,12 @@ public class PaternManager : MonoBehaviour
     //{
     //    PlayPatern(0);
     //}
+
+
+    public void Init(LevelManager levelManager)
+    {
+        _levelManager = levelManager;
+    }
 
     public void PlayPatern(int level)
     {
@@ -85,11 +93,29 @@ public class PaternManager : MonoBehaviour
     {
         //패턴뽑기 구현
         /*
-         * 1안 난이도별 확률제
-         * 2안 N빵제
+         * 1안 난이도별 확률제 
+         * 2안 난이도별 N빵제 OOO
          * 3안 패턴별 확률
          */
-        return paternListbeta[0];
+        PaternScriptObjectbeta curPatern = null;
+        int randValue;
+        switch (_levelManager.nowLevel)
+        {
+            case LevelManager.LevelEnum.Easy:
+                randValue = UnityEngine.Random.Range(0, paternListStageOne.Count);
+                curPatern = paternListStageOne[randValue];
+                break;
+            case LevelManager.LevelEnum.Nomal:
+                randValue = UnityEngine.Random.Range(0, paternListStagetwo.Count);
+                curPatern = paternListStagetwo[randValue];
+                break;
+            case LevelManager.LevelEnum.Hard:
+                randValue = UnityEngine.Random.Range(0, paternListbetathree.Count);
+                curPatern = paternListbetathree[randValue];
+                break;
+        }
+
+        return curPatern;
     }
 
     IEnumerator PlayObstacleCoroutine(ObstacleInfo info)

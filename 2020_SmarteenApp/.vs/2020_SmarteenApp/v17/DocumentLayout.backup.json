@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\system\\moving_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\moving_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\system\\pointsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\system\\pointsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\pointsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\obstacle_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scriptableobjects\\paterns\\paterncraftguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scriptableobjects\\paterns\\paterncraftguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptableobjects\\paterns\\paterncraftguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\patern\\paternscriptobjectbeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\patern\\paternscriptobjectbeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\patern\\paternscriptobjectbeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerMove.cs",
+              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\PlayerMove.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAnwF4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T18:31:09.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Pointsystem.cs",
               "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\Pointsystem.cs",
               "RelativeDocumentMoniker": "Assets\\system\\Pointsystem.cs",
@@ -50,25 +67,24 @@
               "RelativeToolTip": "Assets\\system\\Pointsystem.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:01:32.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T18:01:32.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "moving_wall.cs",
               "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\moving_wall.cs",
               "RelativeDocumentMoniker": "Assets\\system\\moving_wall.cs",
               "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\moving_wall.cs",
               "RelativeToolTip": "Assets\\system\\moving_wall.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T18:00:45.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Obstacle_Wall.cs",
               "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Wall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Wall.cs",
@@ -76,12 +92,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Wall.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:00:28.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T18:00:28.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PaternCraftGuide.txt",
               "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\ScriptableObjects\\Paterns\\PaternCraftGuide.txt",
               "RelativeDocumentMoniker": "Assets\\ScriptableObjects\\Paterns\\PaternCraftGuide.txt",
@@ -89,12 +104,11 @@
               "RelativeToolTip": "Assets\\ScriptableObjects\\Paterns\\PaternCraftGuide.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-17T17:54:21.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T17:54:21.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PaternManager.cs",
               "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\PaternManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\PaternManager.cs",
@@ -102,12 +116,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\PaternManager.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T17:36:18.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T17:36:18.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PaternScriptObjectbeta.cs",
               "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
@@ -115,12 +128,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T17:09:49.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T17:09:49.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PaternScriptObject.cs",
               "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",

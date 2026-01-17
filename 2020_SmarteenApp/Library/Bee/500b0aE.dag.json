@@ -37498,7 +37498,7 @@
         "Assets/system/main_text.cs",
         "Assets/system/moving_wall.cs",
         "Assets/system/pause.cs",
-        "Assets/system/pointsystem.cs",
+        "Assets/system/Pointsystem.cs",
         "Assets/system/rank_loginsystem.cs",
         "Assets/system/SaveData.cs",
         "Assets/system/SaveManager.cs",

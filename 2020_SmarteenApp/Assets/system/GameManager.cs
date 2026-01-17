@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         Char_dead = false;
         Char_dead2 = false;
 
-
+        paternManager.Init(levelManager);
         paternManager.PaternEndEvent += EndPatern;
 
     }

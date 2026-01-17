@@ -14,6 +14,7 @@ public class SmallerObject
 }
 public class LevelManager : MonoBehaviour
 {
+
     //private static readonly List<Vector3> LevelSize = new List<Vector3>() { new Vector3(210, 210, 0), new Vector3(157.5f, 157.5f, 0), new Vector3(118.125f, 118.125f, 0) };
     [SerializeField]
     private static float PlayerScaleUpTime = 1f;
