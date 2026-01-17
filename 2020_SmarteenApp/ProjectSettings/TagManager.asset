@@ -45,6 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Obstacle
+    uniqueID: 2588592101
+    locked: 0
   - name: ef
     uniqueID: 3920942989
     locked: 0

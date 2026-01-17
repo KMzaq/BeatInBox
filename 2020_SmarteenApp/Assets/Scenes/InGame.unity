@@ -942,15 +942,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd6deb01ac0a244ba61df8cc6665bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaternManager
-  paternListbeta:
-  - {fileID: 11400000, guid: c43b8cf83243de44488e02c2b0e7eba5, type: 2}
+  paternListbeta: []
   paternListStageOne:
-  - {fileID: 11400000, guid: 5077115cf72485c458c977e77752fc12, type: 2}
+  - {fileID: 11400000, guid: a10ed448b3533894298792bfa7baf1f8, type: 2}
   paternListStagetwo:
   - {fileID: 11400000, guid: d0b5fb926c71abb408d4db2e27e7423d, type: 2}
   paternListbetathree:
-  - {fileID: 11400000, guid: a10ed448b3533894298792bfa7baf1f8, type: 2}
-  - {fileID: 11400000, guid: 5d4042b22aaa19e448203798fb813c81, type: 2}
+  - {fileID: 11400000, guid: a080adf7b83ffc04b956696d7bd87dca, type: 2}
   obstaclePrefabList:
   - {fileID: 8294611295288333464, guid: c153c9a4b76fad745b8593625c8e422b, type: 3}
   - {fileID: 6630582087513140372, guid: 09246d26b76688c4a95a84250894af35, type: 3}

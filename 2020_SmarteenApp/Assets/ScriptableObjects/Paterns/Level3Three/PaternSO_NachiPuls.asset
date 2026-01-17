@@ -89,3 +89,55 @@ MonoBehaviour:
       direction: {x: 0, y: 1, z: 0}
       speed: 1000
       time: 0
+  - obstacles:
+    - id: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: -1, y: 0, z: 0}
+      speed: 600
+      time: 0
+    - id: 2
+      position: {x: 195, y: -50, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: 0, y: -1, z: 0}
+      speed: 5
+      time: 0
+  - obstacles:
+    - id: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: 0, y: -1, z: 0}
+      speed: 1000
+      time: 0
+    - id: 2
+      position: {x: -50, y: -195, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: 1, y: 0, z: 0}
+      speed: 5
+      time: 0
+  - obstacles:
+    - id: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: 0, y: -1, z: 0}
+      speed: 1000
+      time: 0
+    - id: 2
+      position: {x: -195, y: 50, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: 1, y: 0, z: 0}
+      speed: 5
+      time: 0
+  - obstacles:
+    - id: 0
+      position: {x: 0, y: 0, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: 0, y: -1, z: 0}
+      speed: 1000
+      time: 0
+    - id: 2
+      position: {x: 50, y: 195, z: 0}
+      size: {x: 50, y: 50, z: 1}
+      direction: {x: 1, y: 0, z: 0}
+      speed: 5
+      time: 0
