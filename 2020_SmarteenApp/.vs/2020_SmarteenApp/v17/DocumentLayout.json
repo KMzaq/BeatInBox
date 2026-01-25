@@ -1,17 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\",
+  "WorkspaceRootPath": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|c:\\gamemake\\unity6\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\patern\\paternscriptobjectbeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\patern\\paternscriptobjectbeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|c:\\gamemake\\unity6\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\patern\\paternscriptobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\patern\\paternscriptobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|c:\\gamemake\\unity6\\beatinbox\\2020_smarteenapp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\obstacle_laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\assets\\system\\moving_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\moving_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\obstacle\\obstacle_straight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\obstacle\\obstacle_straight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\assets\\scriptableobjects\\paterns\\paterncraftguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptableobjects\\paterns\\paterncraftguide.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paternsystem\\paternmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\scripts\\levelsystem\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\assets\\scripts\\levelsystem\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelsystem\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|d:\\unityproject\\beatinbox\\2020_smarteenapp\\assets\\system\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\assets\\system\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB7168F-5882-9BD5-E560-06437AFDB4C8}|Assembly-CSharp.csproj|solutionrelative:assets\\system\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,46 +46,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\system\\GameManager.cs",
-              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\GameManager.cs",
-              "RelativeToolTip": "Assets\\system\\GameManager.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAYwC8AAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PaternScriptObjectbeta.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObjectbeta.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T21:03:16.619Z",
+              "WhenOpened": "2026-01-25T10:40:35.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\LevelSystem\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSystem\\LevelManager.cs",
-              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\LevelSystem\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelSystem\\LevelManager.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAIwJQAAABBAAAAAAAAAA==",
+              "Title": "PaternScriptObject.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Patern\\PaternScriptObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:52:37.958Z",
+              "WhenOpened": "2026-01-25T10:00:52.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "moving_wall.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\moving_wall.cs",
+              "RelativeDocumentMoniker": "Assets\\system\\moving_wall.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\moving_wall.cs",
+              "RelativeToolTip": "Assets\\system\\moving_wall.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA+wBgAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T04:50:10.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Obstacle_Straight.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Straight.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T04:26:43.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaternCraftGuide.txt",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\ScriptableObjects\\Paterns\\PaternCraftGuide.txt",
+              "RelativeDocumentMoniker": "Assets\\ScriptableObjects\\Paterns\\PaternCraftGuide.txt",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\ScriptableObjects\\Paterns\\PaternCraftGuide.txt",
+              "RelativeToolTip": "Assets\\ScriptableObjects\\Paterns\\PaternCraftGuide.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-23T01:07:59.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Obstacle_Laser.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Laser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Laser.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Laser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\Obstacle\\Obstacle_Laser.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA3wC8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:51:02.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\system\\GameManager.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\system\\GameManager.cs",
+              "RelativeToolTip": "Assets\\system\\GameManager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwC8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T21:03:16.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\LevelSystem\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSystem\\LevelManager.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\LevelSystem\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSystem\\LevelManager.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAIwJQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T20:52:37.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PaternManager.cs",
-              "DocumentMoniker": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\PaternManager.cs",
+              "DocumentMoniker": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\PaternManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PaternSystem\\PaternManager.cs",
-              "ToolTip": "D:\\UnityProject\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\PaternManager.cs",
+              "ToolTip": "C:\\GameMake\\Unity6\\BeatInBox\\2020_SmarteenApp\\Assets\\Scripts\\PaternSystem\\PaternManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\PaternSystem\\PaternManager.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAIwHEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T17:36:18.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T17:36:18.994Z"
             }
           ]
         }

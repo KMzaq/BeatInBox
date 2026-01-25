@@ -45,6 +45,7 @@ public class Obstacle_Laser : BaseObstacle
         var pointList = GetPointList(this.transform.position, _endPosition, _vezier);
         //범위 그리고 안에 찐하게 점점 커지기
         LineRenderer lineRenderer = GetComponent<LineRenderer>();
+        lineRenderer.startWidth = this.transform.localScale.y;
         lineRenderer.positionCount = pointList.Count;
         lineRenderer.SetPositions(pointList.ToArray());
 
@@ -60,12 +61,13 @@ public class Obstacle_Laser : BaseObstacle
         //충돌체크
         for(int i = 0; i < lineRenderer.positionCount - 1; i++)
         {
+            Vector3 currentPos = lineRenderer.GetPosition(i);
             Vector3 nextPos = lineRenderer.GetPosition(i + 1);
 
 
-            var hit = Physics2D.CircleCast(lineRenderer.GetPosition(i),
-                                 lineRenderer.startWidth,
-                                 (nextPos - lineRenderer.GetPosition(i)).normalized,
+            var hit = Physics2D.CircleCast(currentPos,
+                                 lineRenderer.startWidth * 0.5f,
+                                 (nextPos - currentPos).normalized,
                                  Vector3.Distance(lineRenderer.GetPosition(i), nextPos),
                                  1 << LayerMask.NameToLayer("Player"));
 

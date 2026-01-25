@@ -16,6 +16,7 @@ public struct ObstacleInfo
 [CreateAssetMenu(fileName = "PaternScriptObject", menuName = "Scriptable Objects/PaternScriptObject")]
 public class PaternScriptObject : ScriptableObject
 {
+    public int testInt;
     public List<ObstacleInfo> obstacleList;
 }
 

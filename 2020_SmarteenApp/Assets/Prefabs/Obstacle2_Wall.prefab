@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2388267910739573077}
   - component: {fileID: 4981829485245276335}
   - component: {fileID: -6568836021477178192}
-  - component: {fileID: -7542833958997877468}
   m_Layer: 0
   m_Name: Obstacle2_Wall
   m_TagString: wall
@@ -155,20 +154,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-7542833958997877468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4233358506802460022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8e9d88acfd357841acc84a004c81e47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::moving_wall
-  pung: {fileID: 2707099087958971969, guid: a71bcbd6b82272c4bb99dae2cddb1737, type: 3}
-  pung2: {fileID: 0}
 --- !u!1 &4653602208960074858
 GameObject:
   m_ObjectHideFlags: 0

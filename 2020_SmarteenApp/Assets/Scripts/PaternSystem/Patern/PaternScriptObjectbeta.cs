@@ -11,6 +11,6 @@ public class ObstacleBeta
 [CreateAssetMenu(fileName = "PaternScriptObject", menuName = "Scriptable Objects/PaternScriptObjectbeta")]
 public class PaternScriptObjectbeta : ScriptableObject
 {
-
+    public int score;
     public List<ObstacleBeta> obstacleList;
 }
